@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-size: 14px;
+  font-family: poppins, sans-serif;
+}
+.bg-image {
+  background: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/****** NAVBAR ******/
+.navbar {
+  padding-top: 35px;
+}
+.navbar-brand {
+  font-size: 50px;
+  color: black;
+}
+.offcanvas-header {
+  justify-content: end;
+}
+.nav-item .nav-link {
+  color: black;
+  font-size: larger;
+}
+.info {
+  padding-top: 15px;
+}
+.info p {
+  margin: 0px;
+}
+.navbar .info a {
+  font-size: 23px;
+  color: black;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.navbar .navbar-toggler-icon {
+  color: #343434;
+}
+
+.nav-item .nav-link:hover {
+  color: rgba(61, 12, 224, 0.901);
+}
+
+
+/********* HOME PAGE *******/
+.about-detail {
+  padding-top: 35%;
+  padding-bottom: 100px;
+}
+.about-detail h5 {
+  font-size: 35px;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: 400;
+}
+.about-detail h1 {
+  font-size: 56px;
+  color:rgba(255, 0, 0, 0.768);
+  font-weight: bolder;
+}
+.about-detail p {
+  font-size: 22px;
+  color:purple;
+  line-height: 28px;
+  font-weight: 750;
+}
+.about-detail button {
+  border: none;
+  padding: 15px 40px;
+  margin-top: 15px;
+  color: white;
+  background: #3835ef;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+.about-detail button i {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.banner-img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.banner-img img {
+  position: absolute;
+  bottom: 0px;
+  width: 90%;
+}
+
+
+/*************** ABOUT US ***************/
+
+.bg-color {
+  background-color: #e7ecf4;
+}
+.about-left img {
+  width: 55%;
+  margin-left: 10rem;
+  margin-top: 7rem;
+  background-size: cover;
+  border-radius: 60px;
+}
+.about-right {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left: 5rem;
+}
+.container h2 {
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+}
+.about-right h6 {
+  color: #f90505;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.about-right p {
+  line-height: 35px;
+  font-size: 16px;
+  margin-bottom: 50px;
+  letter-spacing: 0.2px;
+  word-spacing: 0.5px;
+}
+.about-right p span {
+  color: black;
+  font-weight: 600;
+  border-bottom: 3px solid red;
+}
+.about-right table tr td {
+  padding: 10px;
+}
+
+
+/********** SKILL SECTION *********/
+
+.about-skill {
+  padding: 50px 0px;
+  height: 100% !important;
+  background-color:rgba(135, 207, 235, 0.34);
+}
+.about-skill p {
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+}
+.about-skill p span {
+  color: red;
+  font-weight: 600;
+}
+.skill-section {
+  font-size: 25px;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.skill-section p {
+  float: left;
+  margin-bottom: 4px;
+  color: black;
+  font-size: 15px;
+}
+.skill-section span {
+  float: right;
+  margin-bottom: 5px;
+  color: black;
+  font-size: 15px;
+  margin-right: 40px;
+}
+.skill-experience {
+  width: 100%;
+  float: left;
+  background: #e7e7e7d1;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.skill-experience span {
+  background: red;
+  height: 5px;
+  float: left;
+}
+
+
+/********* PROJECT SECTION *********/
+
+#portfolio{
+   background-color:#e7ecf4;
+}
+.portfolio-section {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+ }
+.portfolio-section img {
+  width: 100%;
+  margin-bottom: 20px;
+  opacity: 1;
+  transition: 0.3s ease;
+}
+.portfolio-section h1 {
+  margin-top: 225px;
+  color: whitesmoke;
+  font-weight: 800;
+  text-shadow: 0 0 500px black, 5px 0 5px black;
+}
+.portfolio-section img:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+
+/********* CONTACT SECTION *********/
+
+.contact-section{
+  background-color:rgba(135, 207, 235, 0.34);
+}
+.contact-info {
+  background: black;
+  padding: 45px;
+}
+.contact-info h4 {
+  font-size: 17px;
+  margin-top: 25px;
+  color: white;
+  margin-bottom: 2px;
+}
+.contact-info p {
+  font-size: 15px;
+  color: #818385;
+  line-height: 30px;
+}
+.contact-info i {
+  background: #fff;
+  color: black;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 17px;
+  margin-right: 15px;
+  margin-top: 20px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.contact-form {
+  background: white;
+  padding: 45px;
+  box-shadow: 0px 0px 1px 0px #484848;
+}
+.contact-form h2 {
+  margin-top: 25px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.contact-form input {
+  height: 45px;
+}
+.contact-form button {
+  color: white;
+  border: none;
+  background: red;
+  padding: 12px 30px;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.heading-section {
+  padding-bottom: 30px;
+  padding-top: 80px;
+}
+.heading-section h2 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.heading-section p {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.heading-borders {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+/********* FOOTER *********/
+
+.footer {
+  background: black;
+  padding: 20px 0px 5px 0px;
+}
+.footer p {
+  color: white;
+  text-align: right;
+}
+.footer-section i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: white;
+}
+.footer span {
+  color: yellow;
+}
